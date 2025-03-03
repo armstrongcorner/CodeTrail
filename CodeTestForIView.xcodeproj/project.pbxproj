@@ -6,6 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		22BC20772D75316F004927CD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC20762D75316F004927CD /* ApiClient.swift */; };
+		22BEE7FB2D73FE41002F94E3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE7FA2D73FE41002F94E3 /* AuthViewModel.swift */; };
+		22BEE7FE2D7402AC002F94E3 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE7FD2D7402AC002F94E3 /* LoginService.swift */; };
+		22BEE8012D740389002F94E3 /* MockLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8002D740389002F94E3 /* MockLoginService.swift */; };
+		22BEE8032D7403F8002F94E3 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8022D7403F8002F94E3 /* AuthModel.swift */; };
+		22BEE8052D740A95002F94E3 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8042D740A95002F94E3 /* MockData.swift */; };
+		22BEE80C2D7444E5002F94E3 /* AuthViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8082D7444E5002F94E3 /* AuthViewModelTest.swift */; };
+		22BEE80D2D7444E5002F94E3 /* BankAccountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8092D7444E5002F94E3 /* BankAccountTest.swift */; };
+		22BEE80E2D7444E5002F94E3 /* FileManageViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE80A2D7444E5002F94E3 /* FileManageViewModelTest.swift */; };
+		22BEE8102D74469E002F94E3 /* FileManageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE80F2D74469E002F94E3 /* FileManageViewModel.swift */; };
+		22BEE8122D744785002F94E3 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8112D744785002F94E3 /* DownloadService.swift */; };
+		22BEE8142D74486A002F94E3 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8132D74486A002F94E3 /* FileModel.swift */; };
+		22BEE8162D744ED9002F94E3 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8152D744ED9002F94E3 /* FileService.swift */; };
+		22BEE8182D7450DF002F94E3 /* MockFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8172D7450DF002F94E3 /* MockFileService.swift */; };
+		22BEE8222D745658002F94E3 /* MockDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8212D745658002F94E3 /* MockDownloadService.swift */; };
+		22CDD1CD2D72549800D2759F /* CodeTestForIViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDD1CA2D72549800D2759F /* CodeTestForIViewApp.swift */; };
+		22CDD1CE2D72549800D2759F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDD1CB2D72549800D2759F /* ContentView.swift */; };
+		22CDD1CF2D72549800D2759F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CDD1C72D72549800D2759F /* Preview Assets.xcassets */; };
+		22CDD1D02D72549800D2759F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CDD1C92D72549800D2759F /* Assets.xcassets */; };
+		22CDD1D32D7257C900D2759F /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDD1D22D7257C900D2759F /* BankAccount.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		22CDD1AB2D72545C00D2759F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,22 +47,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22BC20762D75316F004927CD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		22BEE7FA2D73FE41002F94E3 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		22BEE7FD2D7402AC002F94E3 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		22BEE8002D740389002F94E3 /* MockLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginService.swift; sourceTree = "<group>"; };
+		22BEE8022D7403F8002F94E3 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		22BEE8042D740A95002F94E3 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		22BEE8082D7444E5002F94E3 /* AuthViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModelTest.swift; sourceTree = "<group>"; };
+		22BEE8092D7444E5002F94E3 /* BankAccountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountTest.swift; sourceTree = "<group>"; };
+		22BEE80A2D7444E5002F94E3 /* FileManageViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManageViewModelTest.swift; sourceTree = "<group>"; };
+		22BEE80F2D74469E002F94E3 /* FileManageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManageViewModel.swift; sourceTree = "<group>"; };
+		22BEE8112D744785002F94E3 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		22BEE8132D74486A002F94E3 /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
+		22BEE8152D744ED9002F94E3 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		22BEE8172D7450DF002F94E3 /* MockFileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFileService.swift; sourceTree = "<group>"; };
+		22BEE8212D745658002F94E3 /* MockDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDownloadService.swift; sourceTree = "<group>"; };
 		22CDD19A2D72545B00D2759F /* CodeTestForIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTestForIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CDD1AA2D72545C00D2759F /* CodeTestForIViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTestForIViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CDD1B42D72545C00D2759F /* CodeTestForIViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTestForIViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CDD1C72D72549800D2759F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22CDD1C92D72549800D2759F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22CDD1CA2D72549800D2759F /* CodeTestForIViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTestForIViewApp.swift; sourceTree = "<group>"; };
+		22CDD1CB2D72549800D2759F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22CDD1D22D7257C900D2759F /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		22CDD19C2D72545B00D2759F /* CodeTestForIView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CodeTestForIView;
-			sourceTree = "<group>";
-		};
-		22CDD1AD2D72545C00D2759F /* CodeTestForIViewTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CodeTestForIViewTests;
-			sourceTree = "<group>";
-		};
 		22CDD1B72D72545C00D2759F /* CodeTestForIViewUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CodeTestForIViewUITests;
@@ -72,11 +105,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22BC20742D753147004927CD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				22BC20752D753165004927CD /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		22BC20752D753165004927CD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				22BC20762D75316F004927CD /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		22BEE7FC2D740291002F94E3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				22BEE7FD2D7402AC002F94E3 /* LoginService.swift */,
+				22BEE8112D744785002F94E3 /* DownloadService.swift */,
+				22BEE8152D744ED9002F94E3 /* FileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		22BEE7FF2D74036F002F94E3 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				22BEE8042D740A95002F94E3 /* MockData.swift */,
+				22BEE8002D740389002F94E3 /* MockLoginService.swift */,
+				22BEE8172D7450DF002F94E3 /* MockFileService.swift */,
+				22BEE8212D745658002F94E3 /* MockDownloadService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		22BEE80B2D7444E5002F94E3 /* CodeTestForIViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				22BEE8082D7444E5002F94E3 /* AuthViewModelTest.swift */,
+				22BEE80A2D7444E5002F94E3 /* FileManageViewModelTest.swift */,
+				22BEE8092D7444E5002F94E3 /* BankAccountTest.swift */,
+			);
+			path = CodeTestForIViewTests;
+			sourceTree = "<group>";
+		};
 		22CDD1912D72545B00D2759F = {
 			isa = PBXGroup;
 			children = (
-				22CDD19C2D72545B00D2759F /* CodeTestForIView */,
-				22CDD1AD2D72545C00D2759F /* CodeTestForIViewTests */,
+				22CDD1CC2D72549800D2759F /* CodeTestForIView */,
+				22BEE80B2D7444E5002F94E3 /* CodeTestForIViewTests */,
 				22CDD1B72D72545C00D2759F /* CodeTestForIViewUITests */,
 				22CDD19B2D72545B00D2759F /* Products */,
 			);
@@ -90,6 +170,49 @@
 				22CDD1B42D72545C00D2759F /* CodeTestForIViewUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		22CDD1C82D72549800D2759F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22CDD1C72D72549800D2759F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22CDD1CC2D72549800D2759F /* CodeTestForIView */ = {
+			isa = PBXGroup;
+			children = (
+				22BEE7FF2D74036F002F94E3 /* Mock */,
+				22BC20742D753147004927CD /* Core */,
+				22CDD1D12D7257AC00D2759F /* Models */,
+				22EFD0B12D726717001DF48C /* ViewModels */,
+				22CDD1C82D72549800D2759F /* Preview Content */,
+				22CDD1C92D72549800D2759F /* Assets.xcassets */,
+				22CDD1CA2D72549800D2759F /* CodeTestForIViewApp.swift */,
+				22CDD1CB2D72549800D2759F /* ContentView.swift */,
+			);
+			path = CodeTestForIView;
+			sourceTree = "<group>";
+		};
+		22CDD1D12D7257AC00D2759F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22BEE7FC2D740291002F94E3 /* Services */,
+				22CDD1D22D7257C900D2759F /* BankAccount.swift */,
+				22BEE8022D7403F8002F94E3 /* AuthModel.swift */,
+				22BEE8132D74486A002F94E3 /* FileModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22EFD0B12D726717001DF48C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				22BEE7FA2D73FE41002F94E3 /* AuthViewModel.swift */,
+				22BEE80F2D74469E002F94E3 /* FileManageViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +229,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				22CDD19C2D72545B00D2759F /* CodeTestForIView */,
 			);
 			name = CodeTestForIView;
 			packageProductDependencies = (
@@ -129,9 +249,6 @@
 			);
 			dependencies = (
 				22CDD1AC2D72545C00D2759F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				22CDD1AD2D72545C00D2759F /* CodeTestForIViewTests */,
 			);
 			name = CodeTestForIViewTests;
 			packageProductDependencies = (
@@ -212,6 +329,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CDD1CF2D72549800D2759F /* Preview Assets.xcassets in Resources */,
+				22CDD1D02D72549800D2759F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +355,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BEE7FB2D73FE41002F94E3 /* AuthViewModel.swift in Sources */,
+				22BEE8012D740389002F94E3 /* MockLoginService.swift in Sources */,
+				22BEE8032D7403F8002F94E3 /* AuthModel.swift in Sources */,
+				22CDD1CD2D72549800D2759F /* CodeTestForIViewApp.swift in Sources */,
+				22BEE7FE2D7402AC002F94E3 /* LoginService.swift in Sources */,
+				22BEE8162D744ED9002F94E3 /* FileService.swift in Sources */,
+				22BEE8122D744785002F94E3 /* DownloadService.swift in Sources */,
+				22BEE8052D740A95002F94E3 /* MockData.swift in Sources */,
+				22BEE8102D74469E002F94E3 /* FileManageViewModel.swift in Sources */,
+				22BEE8182D7450DF002F94E3 /* MockFileService.swift in Sources */,
+				22CDD1D32D7257C900D2759F /* BankAccount.swift in Sources */,
+				22CDD1CE2D72549800D2759F /* ContentView.swift in Sources */,
+				22BEE8142D74486A002F94E3 /* FileModel.swift in Sources */,
+				22BEE8222D745658002F94E3 /* MockDownloadService.swift in Sources */,
+				22BC20772D75316F004927CD /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +377,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BEE80C2D7444E5002F94E3 /* AuthViewModelTest.swift in Sources */,
+				22BEE80D2D7444E5002F94E3 /* BankAccountTest.swift in Sources */,
+				22BEE80E2D7444E5002F94E3 /* FileManageViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +549,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.matrixthoughts.CodeTestForIView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,6 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.matrixthoughts.CodeTestForIView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
