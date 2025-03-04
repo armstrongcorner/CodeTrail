@@ -8,12 +8,12 @@
 import Foundation
 
 actor MockLoginService: LoginServiceProtocol {
-    var auth: AuthModel?
+    var authResponse: AuthResponse?
     var shouldReturnError: Bool?
     var error: LoginError?
     
-    func setAuth(_ value: AuthModel?) {
-        self.auth = value
+    func setAuthResponse(_ value: AuthResponse?) {
+        self.authResponse = value
     }
     
     func setShouldReturnError(_ value: Bool?) {
@@ -24,13 +24,13 @@ actor MockLoginService: LoginServiceProtocol {
         self.error = value
     }
     
-    func login(username: String, password: String) async throws -> AuthModel? {
+    func login(username: String, password: String) async throws -> AuthResponse? {
         // Mock waiting for api call result
         try await Task.sleep(nanoseconds: 3 * 1_000_000_000)
         
-        if let shouldReturnError = shouldReturnError, !shouldReturnError, let auth = auth, error == nil {
+        if let shouldReturnError = shouldReturnError, !shouldReturnError, let authResponse = authResponse, error == nil {
             // Success
-            return auth
+            return authResponse
         } else if let error = error {
             // Throw some error
             throw error

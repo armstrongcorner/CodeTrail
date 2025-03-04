@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22BC20772D75316F004927CD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC20762D75316F004927CD /* ApiClient.swift */; };
 		22BEE7FB2D73FE41002F94E3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE7FA2D73FE41002F94E3 /* AuthViewModel.swift */; };
-		22BEE7FE2D7402AC002F94E3 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE7FD2D7402AC002F94E3 /* LoginService.swift */; };
 		22BEE8012D740389002F94E3 /* MockLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8002D740389002F94E3 /* MockLoginService.swift */; };
 		22BEE8032D7403F8002F94E3 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8022D7403F8002F94E3 /* AuthModel.swift */; };
 		22BEE8052D740A95002F94E3 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEE8042D740A95002F94E3 /* MockData.swift */; };
@@ -27,6 +25,9 @@
 		22CDD1CF2D72549800D2759F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CDD1C72D72549800D2759F /* Preview Assets.xcassets */; };
 		22CDD1D02D72549800D2759F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CDD1C92D72549800D2759F /* Assets.xcassets */; };
 		22CDD1D32D7257C900D2759F /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDD1D22D7257C900D2759F /* BankAccount.swift */; };
+		22D14F852D76E4C2005E042B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D14F842D76E4C2005E042B /* ApiClient.swift */; };
+		22D14F872D76E4F2005E042B /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D14F862D76E4F2005E042B /* BaseResponse.swift */; };
+		22D14F892D76E515005E042B /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D14F882D76E515005E042B /* LoginService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22BC20762D75316F004927CD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		22BEE7FA2D73FE41002F94E3 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		22BEE7FD2D7402AC002F94E3 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		22BEE8002D740389002F94E3 /* MockLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginService.swift; sourceTree = "<group>"; };
 		22BEE8022D7403F8002F94E3 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		22BEE8042D740A95002F94E3 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -70,6 +69,9 @@
 		22CDD1CA2D72549800D2759F /* CodeTestForIViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTestForIViewApp.swift; sourceTree = "<group>"; };
 		22CDD1CB2D72549800D2759F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22CDD1D22D7257C900D2759F /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		22D14F842D76E4C2005E042B /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		22D14F862D76E4F2005E042B /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		22D14F882D76E515005E042B /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -116,7 +118,8 @@
 		22BC20752D753165004927CD /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				22BC20762D75316F004927CD /* ApiClient.swift */,
+				22D14F862D76E4F2005E042B /* BaseResponse.swift */,
+				22D14F842D76E4C2005E042B /* ApiClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 		22BEE7FC2D740291002F94E3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				22BEE7FD2D7402AC002F94E3 /* LoginService.swift */,
+				22D14F882D76E515005E042B /* LoginService.swift */,
 				22BEE8112D744785002F94E3 /* DownloadService.swift */,
 				22BEE8152D744ED9002F94E3 /* FileService.swift */,
 			);
@@ -359,17 +362,18 @@
 				22BEE8012D740389002F94E3 /* MockLoginService.swift in Sources */,
 				22BEE8032D7403F8002F94E3 /* AuthModel.swift in Sources */,
 				22CDD1CD2D72549800D2759F /* CodeTestForIViewApp.swift in Sources */,
-				22BEE7FE2D7402AC002F94E3 /* LoginService.swift in Sources */,
 				22BEE8162D744ED9002F94E3 /* FileService.swift in Sources */,
 				22BEE8122D744785002F94E3 /* DownloadService.swift in Sources */,
+				22D14F872D76E4F2005E042B /* BaseResponse.swift in Sources */,
+				22D14F852D76E4C2005E042B /* ApiClient.swift in Sources */,
 				22BEE8052D740A95002F94E3 /* MockData.swift in Sources */,
+				22D14F892D76E515005E042B /* LoginService.swift in Sources */,
 				22BEE8102D74469E002F94E3 /* FileManageViewModel.swift in Sources */,
 				22BEE8182D7450DF002F94E3 /* MockFileService.swift in Sources */,
 				22CDD1D32D7257C900D2759F /* BankAccount.swift in Sources */,
 				22CDD1CE2D72549800D2759F /* ContentView.swift in Sources */,
 				22BEE8142D74486A002F94E3 /* FileModel.swift in Sources */,
 				22BEE8222D745658002F94E3 /* MockDownloadService.swift in Sources */,
-				22BC20772D75316F004927CD /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

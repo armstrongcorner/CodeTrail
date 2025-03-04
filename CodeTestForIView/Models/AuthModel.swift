@@ -11,3 +11,5 @@ struct AuthModel: Codable {
     let token: String?
     let validUntilTimestamp: Int?
 }
+
+typealias AuthResponse = BaseResponse<AuthModel>

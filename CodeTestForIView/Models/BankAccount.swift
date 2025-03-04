@@ -22,7 +22,7 @@ struct BankAccount {
     var accountType: BankAccountType
     
     mutating func deposit(_ amount: Double) {
-        balance += amou
+        balance += amount
     }
     
     mutating func withdraw(_ amount: Double) throws {
